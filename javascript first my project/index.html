@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Application</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Emet Programming Book Center</h1>
+        <p>Add Your Faverit course</p>
+      </div>
+      <div class="course-api">
+        <form action="#" method="post" class="input-search" id="search">
+          <input
+            type="text"
+            placeholder="Serch you course.. "
+            id="serch-input"
+          />
+        </form>
+        <div class="corse-list" id="list">
+          <ul>
+            <li>
+              <span class="name">Html5</span>
+              <span class="delite">Remove</span>
+            </li>
+            <li>
+              <span class="name">Css3</span>
+              <span class="delite">Remove</span>
+            </li>
+            <li>
+              <span class="name">Javascript</span>
+              <span class="delite">Remove</span>
+            </li>
+          </ul>
+        </div>
+
+        <form action="#" method="post" class="course-add" id="additems">
+          <div class="c">
+            <input type="checkbox" name="checkbox" id="check" /><label
+              for="check"
+              ><i class="far fa-arrow-alt-circle-right"></i> Hide Book List</label
+            >
+          </div>
+          <input type="text" class="add-item" placeholder="Add your Book.." required />
+          <button class="add">Add</button>
+        </form>
+      </div>
+    </header>
+    <script src="main.js"></script>
+  </body>
+</html>

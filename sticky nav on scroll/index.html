@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixd Nav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        .dic{
+            width: 100%;
+            height: 7rem;
+            background-color: #ccc;
+        }
+        nav{
+            width: 100%;
+            height: 3rem;
+            background-color: rgb(37, 136, 149);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul{
+            list-style-type: none;
+            margin-right: 1rem;
+        }
+        .logo{
+            margin-left: 1rem;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+        }
+        a{
+            font-size: 1.4rem;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .fixed-nav nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4rem;
+            background-color: rgb(34, 98, 128);
+        }
+        .main{
+            width: 100%;
+            height: 100vh;
+            color: #fff;
+            background-color: rgb(109, 109, 109);
+            text-align: center;
+        }
+        .blog{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(179, 179, 179);
+        }
+        .scrollbtn{
+            position: fixed;
+            right: 1rem;
+            bottom: 1rem;
+            background-color: rgb(255, 0, 0);
+            width: 2.3rem;
+            height: 2.3rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.4rem;
+            cursor: pointer;
+            opacity: 0;
+            display: none;
+            transition: 0.5s ease-in-out;
+        }
+        .scrollbtn i{
+            cursor: pointer;
+        }
+        .scrollbtn.active{
+            opacity: 1;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="dic">
+
+    </div>
+    <nav id="nav">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <ul><li><a href="#">Home</a></li></ul>
+        <ul><li><a href="#about">About</a></li></ul>
+        <ul><li><a href="#login">Login</a></li></ul>
+    </nav>
+    <div class="main" id="about">
+<h1>main</h1>
+    </div>
+    <div class="blog" id="login">
+
+    </div>
+        <a href="#">
+    <div class="scrollbtn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+         </a>
+    <script>
+        const nav = document.querySelector('#nav');
+        const topOfNav = nav.offsetTop;
+        function fixNav(){
+            if(window.scrollY >= topOfNav){
+                document.body.classList.add('fixed-nav');
+            }
+            else{
+                document.body.classList.remove('fixed-nav');
+            }
+        }
+        window.addEventListener('scroll', fixNav);
+        // scrolltop
+        let toTop = document.querySelector('.scrollbtn');
+        window.addEventListener('scroll', () => {
+            if(window.pageYOffset > 100){
+            toTop.classList.add('active');
+            }else{
+                toTop.classList.remove('active');
+            }
+        })
+    </script>
+</body>
+</html>
+#43d3e8 / #43e859
+
+#1facc2 / #1dbf73
+#6cd3ff / #9fff6c
+#43d3e8 / #43e859
+#1dbf73 / #1d69bf
+#86b4de / #80d68e
+#89ebd7 / #91e888
+#19a463 / #1b95a8
+#3fc4d6 / #41d98d

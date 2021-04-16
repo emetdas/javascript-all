@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript for beginer</title>
+    <style>
+      h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: aqua;
+      }
+      .colorbtn {
+        width: 30px;
+        height: 30px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button onclick="clearInterval(clock)">Click Me</button> -->
+    <h1 id="show"></h1>
+    <br />
+    <div class="colorbtn"></div>
+    <br />
+    <form name="bmiForm">
+      Your Weight(kg): <input type="text" name="weight" size="10"><br />
+      Your Height(cm): <input type="text" name="height" size="10"><br />
+      <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+      Your BMI: <input type="text" name="bmi" size="10"><br />
+      This Means: <input type="text" name="meaning" size="25"><br />
+      <input type="reset" value="Reset" />
+      </form>
+    <script src="main.js"></script>
+  </body>
+</html>
