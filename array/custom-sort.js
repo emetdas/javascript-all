@@ -12,5 +12,5 @@ function Byid(a,b){
     return parseInt(a.id) - parseInt(b.id);
 }
 people.forEach(function(p,i){
-    console.log(p,i);
+    console.log(p.id,i);
 })
