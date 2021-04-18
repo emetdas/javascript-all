@@ -8,4 +8,6 @@ var obj = {
     }
 }
 console.log(obj.pro);
-console.log(JSON.stringify(obj));
+result = JSON.stringify(obj);
+console.log(result);
+console.log(JSON.parse(result));
