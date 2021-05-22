@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node-sass sass/style.scss css/style.css -w",
         "test": "parcel index.html",
-        "build": "parcel build index.html"
+        "build": "parcel build index.html",
+        "install": "babel main.js --watch --out-file script-compiled.js"
     },
     "dependencies": {
 
