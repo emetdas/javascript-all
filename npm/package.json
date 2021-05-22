@@ -6,7 +6,8 @@
     "main": "main.js",
     "scripts": {
         "start": "node-sass sass/style.scss css/style.css -w",
-        "test": "parcel index.html"
+        "test": "parcel index.html",
+        "prepack": "Bable"
     },
     "dependencies": {
 
