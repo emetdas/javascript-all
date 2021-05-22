@@ -1,0 +1,6 @@
+```Run Node-sass
+"start": "node-sass sass/style.scss css/style.css -w"
+```
+```Build parcel
+"test": "parcel index.html"
+```

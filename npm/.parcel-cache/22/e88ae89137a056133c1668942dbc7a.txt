@@ -1,0 +1,7 @@
+6
+33F:\javascript\npm\sass\style.scss132661348712882546 0
+21F:\javascript\npm\css132661348655921961 1
+28F:\javascript\npm\index.html132661351518404561 0
+30F:\javascript\npm\package.json132661351101175236 0
+22F:\javascript\npm\sass132661347663355327 1
+31F:\javascript\npm\css\style.css132661348713491156 0
