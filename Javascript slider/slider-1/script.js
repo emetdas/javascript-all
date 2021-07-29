@@ -34,8 +34,8 @@ nextBtn.addEventListener('click', () => {
 prevBtn.addEventListener('click', () => {
   index--;
   sliderContainer.style.transform = `translateX(${-sliderWidth * index}rem)`;
-  if (index = 0) {
-    index = index > slider.length - 1;
+  if ((index = 0)) {
+    index = index < slider.length - 1;
     sliderContainer.style.transform = `translateX(0rem)`;
   }
 });
