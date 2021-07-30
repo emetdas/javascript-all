@@ -29,12 +29,12 @@ div {
 }
 .slider-container {
   display: flex;
-  width: var(--container);
+  width: calc(var(--container) * 4);
   height: 70vh;
   position: relative;
 }
 .slider-container .slide {
-    position:absolute;
+  position:absolute;
   width: var(--container);
   height: 70vh;
 }
