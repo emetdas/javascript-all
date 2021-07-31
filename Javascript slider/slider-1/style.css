@@ -17,3 +17,8 @@ html, body{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+.container{
+    max-width: var(--container);
+    width: calc(100% - 2rem);
+    margin: var(--m-auto);
+}
