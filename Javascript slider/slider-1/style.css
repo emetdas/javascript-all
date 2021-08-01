@@ -65,3 +65,21 @@ div {
 .controls .right {
   right: 1rem;
 }
+.dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dots .controler-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--gray);
+  margin: 0 0.4rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.controler-dot.active {
+  background: pink;
+}
