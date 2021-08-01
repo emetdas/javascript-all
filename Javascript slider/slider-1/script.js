@@ -1,41 +1,20 @@
-let sliderContainer = document.querySelector('.slider-container');
-let slider = document.querySelectorAll('.slide');
-let nextBtn = document.querySelector('.nextBtn');
-let prevBtn = document.querySelector('.prevBtn');
+let slider = document.querySelector('.slider');
+let slide = document.querySelectorAll('.slide');
+let next = document.querySelector('.right');
+let prev = document.querySelector('.left');
 
-let index = 0;
-let sliderWidth = slider[0].clientWidth;
-console.log(sliderWidth);
-slider.forEach((s, i) => {
-  s.style.transform = `translateX(${112 * i}rem)`;
-  console.log(i);
+var index = 0;
+var Lenght = slide.length;
+var persent = Math.round(100 / Lenght);
+// slide.forEach((e) => {
+//   console.log(e.getBoundingClientRect().width);
+// });
+slider.style.width = `${Lenght * 100}%`;
+next.addEventListener('click', function () {
+  index = index < Lenght - 1 ? index + 1 : Lenght - 1;
+  slider.style.transform = 'translate(' + index * -persent + '%)';
 });
-
-let dots = document.querySelector('.dots');
-let creatDots = () => {
-  slider.forEach((_, i) => {
-    dots.insertAdjacentHTML(
-      'beforeend',
-      `<span class="controler-dot" data-dot="${i}">
-        </span>`
-    );
-  });
-};
-creatDots();
-
-nextBtn.addEventListener('click', () => {
-  index++;
-  sliderContainer.style.transform = `translateX(${-sliderWidth * index}rem)`;
-  if (index > slider.length - 1) {
-    index = 0;
-    sliderContainer.style.transform = `translateX(0rem)`;
-  }
-});
-prevBtn.addEventListener('click', () => {
-  index--;
-  sliderContainer.style.transform = `translateX(${-sliderWidth * index}rem)`;
-  if ((index = 0)) {
-    index = index < slider.length - 1;
-    sliderContainer.style.transform = `translateX(0rem)`;
-  }
+prev.addEventListener('click', function () {
+  index = index > 0 ? index - 1 : 0;
+  slider.style.transform = 'translate(' + index * -persent + '%)';
 });
