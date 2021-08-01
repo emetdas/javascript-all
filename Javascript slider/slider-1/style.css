@@ -17,8 +17,29 @@ html, body{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+div{
+    font-size:1.6rem;
+}
 .container{
-    max-width: var(--container);
-    width: calc(100% - 2rem);
+    width: 80%;
     margin: var(--m-auto);
+}
+.carousel{
+    margin-top: 2rem;
+    height: 35rem;
+    /* overflow: hidden; */
+}
+.slider{
+    display: flex;
+    width:500%;
+    height: 100%;
+    border: 0.2rem solid burlywood;
+}
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 0.2rem solid rgb(111, 148, 190);
 }
