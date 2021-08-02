@@ -8,6 +8,7 @@ var persent = Math.round(100 / Lenght);
 slider.style.width = `${Lenght * 100}%`;
 let dots = document.querySelector('.dots');
 
+
 let creatDots = () => {
   slide.forEach((_, i) => {
     dots.insertAdjacentHTML(
