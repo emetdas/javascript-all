@@ -21,7 +21,7 @@ let creatDots = () => {
 };
 creatDots();
 
-create 
+// create slider append and prepend slide
 
 function activeDotOne() {
   let activeDot = dots.children[0];
