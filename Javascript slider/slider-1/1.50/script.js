@@ -21,6 +21,8 @@ let creatDots = () => {
 };
 creatDots();
 
+create 
+
 function activeDotOne() {
   let activeDot = dots.children[0];
   activeDot.classList.add('active');
