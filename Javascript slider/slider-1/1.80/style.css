@@ -19,6 +19,9 @@ html, body{
     list-style-type: none;
     border: none;
 }
+.carousel{
+    width:var(--container);
+}
 .arrow{
     position: absolute;
     top: 50%;
