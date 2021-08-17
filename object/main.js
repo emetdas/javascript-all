@@ -7,11 +7,11 @@ var obj = {
     1: 'Java',
   },
 };
-// console.log(obj.pro);
-// result = JSON.stringify(obj);
-// console.log(result);
-// console.log(JSON.parse(result));
-for (ittert in obj) {
-  console.log(ittert);
-  
+console.log(obj.pro);
+result = JSON.stringify(obj);
+console.log(result);
+console.log(JSON.parse(result));
+
+for (let abs in obj) {
+  console.log(abs);
 }
