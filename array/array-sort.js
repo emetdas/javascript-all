@@ -13,6 +13,21 @@
 // console.log(Math.max.apply(null,num));
 // console.log(Math.min.apply(null,num));
 
-// Sort Object 
+// Sort Object
 
-var number = [1,2,1,4,2,4,10,5];
+var number = [1, 2, 1, 4, 2, 4, 10, 5];
+// array sort the number order
+let cl = number.sort((n1, n2) => {
+  return n1 - n2;
+});
+console.log(cl);
+// array to all duplicate elements remove
+let numbers = new Set(cl);
+console.log(...numbers);
+// set to number convert
+console.log(Array.from(numbers));
+
+var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+
+let furit = fruits.sort();
+console.log(furit);
