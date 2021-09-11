@@ -3,4 +3,4 @@ console.log(array.filter(calc));
 function calc(age) {
   return age <= 10;
 }
-console.log(array);
+console.log(array.reverse());
