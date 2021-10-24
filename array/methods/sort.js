@@ -7,4 +7,5 @@ let arr = [2, 3, 5, 10, 44, 1];
 let dessinding = arr.sort((a, b) => {
   return b - a;
 });
+
 console.log(dessinding);
