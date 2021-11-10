@@ -25,6 +25,7 @@ console.log(substirng.substring(0,20) + '...');
 // substring(start, end)
 // substr(start, length)
 console.log(substirng.substr(0,15));
+
 // substr(start, length)
 // replace()
 var replace = "Replace Emet Develper";
