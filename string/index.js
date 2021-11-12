@@ -59,7 +59,6 @@ console.log(charCodeAt.charCodeAt(0));
 var split = "mango,banna,kwi";
 console.log(split.split(","));
 // split()
-
 // slice
 var slice = "My Name is Emet Das as Web Developer and mouch more Content here";
 console.log(slice.slice(0,51)+' ...');
