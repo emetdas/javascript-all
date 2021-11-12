@@ -38,6 +38,7 @@ console.log(toUperCase.toUpperCase());
 var cont = "Helow";
 console.log(cont.concat(" "," Emet"));
 // concat()
+
 // trim()
 var trim = "  Extra Space Remove   ";
 console.log(trim.trim());
