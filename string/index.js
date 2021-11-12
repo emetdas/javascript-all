@@ -35,6 +35,7 @@ var toUperCase = "emet das";
 console.log(toUperCase.toUpperCase());
 // toUpperCase()
 // concat()
+
 var cont = "Helow";
 console.log(cont.concat(" "," Emet"));
 // concat()
