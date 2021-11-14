@@ -17,6 +17,9 @@ var search = "This is Search Query fild";
 console.log(search.search("is"));
 // search
 // slice(start, end)
+
+
+
 // slice(start, end)
 // substring(start, end)
 var substirng = "I Found I big Website has been user Only Javascript";
