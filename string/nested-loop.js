@@ -8,6 +8,7 @@ while (i<=10) {
     i++;
 }
 // single namta
+
 // namta list
 for (let i = 1; i <= 10; i++) {
     for (let c = 1; c <= 10; c++) {
