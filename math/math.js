@@ -12,17 +12,3 @@
 // console.log(Math.trunc(1.90));
 console.log(Math.exp(20));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
