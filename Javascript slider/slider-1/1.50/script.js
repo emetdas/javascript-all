@@ -91,7 +91,6 @@ dot.forEach((dotone, i) => {
 //     indecator.classList.add('active');
 //   });
 // });
-
 // next.addEventListener('click', () => {
 //   index = index < Lenght - 1 ? index + 1 : Lenght - 1;
 //   setIndex(index);
