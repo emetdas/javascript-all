@@ -78,6 +78,7 @@ dot.forEach((dotone, i) => {
     slider.style.transform = `translateX(${-sliderWidth * index}px)`;
   });
 });
+
 // function setIndex(section) {
 //   document.querySelectorAll('.dots .controler-dot').forEach(function (i) {
 //     i.classList.remove('active');
