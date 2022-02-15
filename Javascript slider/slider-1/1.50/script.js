@@ -36,7 +36,6 @@ function removedot() {
 function activeDot() {
   dot[index].classList.add('active');
 }
-
 next.addEventListener('click', () => {
   slider.style.transition = 'all 0.5s ease-in-out';
   index++;
