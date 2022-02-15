@@ -27,7 +27,6 @@ function activeDotOne() {
   activeDot.classList.add('active');
 }
 activeDotOne();
-
 function removedot() {
   dot.forEach((ac) => {
     ac.classList.remove('active');
