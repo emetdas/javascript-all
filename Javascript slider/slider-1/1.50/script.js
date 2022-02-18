@@ -67,7 +67,6 @@ prev.addEventListener('click', () => {
     activeDot();
   }
 });
-
 dot.forEach((dotone, i) => {
   dotone.addEventListener('click', () => {
     dot.forEach((dotremove) => dotremove.classList.remove('active'));
