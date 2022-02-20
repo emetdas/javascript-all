@@ -1,5 +1,2 @@
 1:https://www.freecodecamp.org/news/the-javascript-array-handbook/?fbclid=IwAR33DT_7RFmdTpwuVzexGmJuUU2Z4gIV72HXKXO3jD9NBoFSNPsGgeyqnDQ
 
-
-
-
