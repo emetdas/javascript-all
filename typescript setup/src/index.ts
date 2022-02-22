@@ -8,7 +8,7 @@ developers.filter((developer) =>{
     if (developer === 'Emet'){
         console.log(`Emet has in this array`)
     }else{
-        console.log('No Emet There')
+        console.log('No Emet is There')
     }
 })
 console.log(id)
