@@ -6,7 +6,7 @@ developers.forEach(function (developer) {
 });
 developers.filter(function (developer) {
     if (developer === 'Emet') {
-        console.log("Emet has in ".concat(id, " this array"));
+        console.log("Emet has in this array");
     }
     else {
         console.log('No Emet is There');
