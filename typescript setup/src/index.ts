@@ -1,6 +1,7 @@
-let id: number = 20
+let id: number[] = [10,5,10,5,1]
 let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
 developers.forEach((developer) =>{
     console.log(developer)
 })
-console.log(id)
+let mySet = new Set<number>([...id])
+
