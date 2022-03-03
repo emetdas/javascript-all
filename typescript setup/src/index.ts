@@ -3,4 +3,5 @@ let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
 developers.forEach((developer,index) =>{
     console.log(developer,index)
 })
+
 let mySet = new Set<number>([...id])
