@@ -8,5 +8,4 @@ let mySet = new Set<number>([...id])
 let total_id = id.reduce((pre,current) =>{
     return pre + current;
 });
-
 console.log(total_id);
