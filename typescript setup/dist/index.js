@@ -7,7 +7,7 @@ let developers = [
     { title: 'Jonas' },
     { title: 'Dev Ed' },
 ];
-let developer_name = 'e';
+let developer_name = 'jon';
 let search = developers.filter((developer) => {
     return developer.title.toLocaleLowerCase().includes(developer_name);
 });

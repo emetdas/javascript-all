@@ -7,7 +7,7 @@ let developers: any[] = [
     {title: 'Jonas'},
     {title: 'Dev Ed'},
 ]
-let developer_name: string = 'e'
+let developer_name: string = 'jon'
 let search = developers.filter((developer) => {
    return developer.title.toLocaleLowerCase().includes(developer_name)
 })
