@@ -12,4 +12,3 @@ let search = developers.filter((developer) => {
    return developer.title.toLocaleLowerCase().includes(developer_name)
 })
 console.log(search);
-
