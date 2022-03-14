@@ -1,11 +1,14 @@
 "use strict";
 let id = [10, 5, 10, 5, 1];
-let developers = ['Emet', 'Jonas', 'Dev Ed', 'Brad'];
-developers.forEach((developer, index) => {
-    console.log(developer, index);
+// let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
+// let Name = 'emet'; 
+let developers = [
+    { title: 'Emet' },
+    { title: 'Jonas' },
+    { title: 'Dev Ed' },
+];
+let developer_name = 'e';
+let search = developers.filter((developer) => {
+    return developer.title.toLocaleLowerCase().includes(developer_name);
 });
-let mySet = new Set([...id]);
-let total_id = id.reduce((pre, current) => {
-    return pre + current;
-});
-console.log(total_id);
+console.log(search);

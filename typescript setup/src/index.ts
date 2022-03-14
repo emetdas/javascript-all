@@ -1,16 +1,15 @@
 let id: number[] = [10,5,10,5,1]
-let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
-let Name: string = 'Emet'; 
-let search = developers.filter((developer) => {
-    let result = developer.toLocaleLowerCase().includes(Name)
-    console.log(result)
-})
-developers.forEach((developer,index) =>{
-    console.log(developer,index)
-})
-let mySet = new Set<number>([...id])
-let total_id = id.reduce((pre,current) =>{
-    return pre + current;
-});
+// let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
+// let Name = 'emet'; 
 
-console.log(total_id);
+let developers: any[] = [
+    {title: 'Emet'},
+    {title: 'Jonas'},
+    {title: 'Dev Ed'},
+]
+let developer_name: string = 'e'
+let search = developers.filter((developer) => {
+   return developer.title.toLocaleLowerCase().includes(developer_name)
+})
+console.log(search);
+
