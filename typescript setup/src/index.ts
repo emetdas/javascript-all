@@ -1,13 +1,8 @@
 let id: number[] = [10,5,10,5,1]
-// let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
-// let Name = 'emet'; 
-let developers: any[] = [
-    {title: 'Emet'},
-    {title: 'Jonas'},
-    {title: 'Dev Ed'},
-]
+let developers: string[] = ['Emet','Jonas','Dev Ed','Brad']
+let Name = 'emet'; 
 let developer_name: string = 'jon'
 let search = developers.filter((developer) => {
-   return developer.title.toLocaleLowerCase().includes(developer_name)
+   return developer.toLocaleLowerCase().includes(Name)
 })
 console.log(search);
