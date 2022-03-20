@@ -8,5 +8,6 @@ let search = developers.filter((developer) => {
 let total_id = id.reduce((index, current) => {
     return index + current;
 }, 1);
+console.log(Name.split(',').join());
 console.log(total_id);
 console.log(search);
