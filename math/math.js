@@ -11,5 +11,4 @@
 // console.log(Math.max(20,10));
 // console.log(Math.trunc(1.90));
 // console.log(Math.exp(20));
-
-
+// Math Method-end
